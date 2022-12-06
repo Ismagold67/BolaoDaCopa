@@ -1,11 +1,13 @@
 body {
     color: blue;
     background-image: url(../img/Planejamento-Copa-do-Mundo-2022-01-1.jpg);
+    font-size: 30px;
 }
 .grid {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 400px;
-    height: auto;
+    width: 600px;
+    height: 200px;
+    padding: 30px;
     margin: auto;
     border: 1px solid white;
     border-radius: 10px;
@@ -13,11 +15,16 @@ body {
     color: #fff;
 }
 table {
-    width: auto;
+    width: 900px;
+    height: 850px;
     border-radius: 10px;
     background-image: url(../img/como-acompanhar-a-copa-do-mundo-de-2022-capa.jpeg);
-    color: #fff;
+    color: rgb(250, 7, 7);
     border: 2px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke: 0.9px;
+    -webkit-text-stroke-color: #fff;
 }
 table th{
     border-radius: 10px;
@@ -27,6 +34,10 @@ th {
 }
 .grid input {
     border-radius: 7px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+
 }
 .grid p{
     text-align: left;
