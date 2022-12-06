@@ -10,6 +10,8 @@
         Time02.innerHTML = `${TimeDois}`
         plac01.innerHTML = `${TimeUm}`
         plac02.innerHTML = `${TimeDois}`
+        plac01.style.color = `red`
+        
         }
 
         let Score = document.getElementById('score')
